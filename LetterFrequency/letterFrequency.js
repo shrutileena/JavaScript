@@ -1,7 +1,6 @@
 const letterFrequency = (phrase) => {
 
-    let count = 0
-    const dictionary = {}
+    let dictionary = {}
 
     for(const letter of phrase){
         if(letter in dictionary){
