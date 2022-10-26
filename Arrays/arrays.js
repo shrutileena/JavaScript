@@ -19,8 +19,12 @@ console.log(groceries.indexOf('banana'))
 // arguments of these methods are functions as well
 // callback function
 
-// map()
-const nums = [1,2,3,4]
+// map() - loops and returns an array
+const nums = [1,2,3,4,5,6]
 nums.map(number => console.log(number))
 const result = nums.map(number => number * 2)
 console.log(result)
+
+// filter() - loops and returns an array
+const res = nums.filter(number => number>3)
+console.log(res)
